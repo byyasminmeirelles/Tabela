@@ -1,0 +1,143 @@
+/*títulos */
+.title {
+    height: 25px;
+    font-size: 13px;
+    color: #999999;    
+}
+/* body*/
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: auto;
+    margin-top: 10px;  
+    border-collapse: collapse; 
+    text-align: center;  
+}
+
+/*linhas*/
+.table tr {    
+    height: 30px; 
+    border: 1px solid #DDDDDD;
+}
+
+/*----COLUNAS----*/
+/* 1° coluna (Posições)*/
+.table tbody td:nth-child(1) {
+    width: 40px;
+    font-size: 18px;
+    font-weight: bold;          
+}
+
+/*2° coluna (nomes de times)*/
+.table tbody td:nth-child(2) {
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;   
+    text-align: left; 
+    color: #666666;
+}
+
+/*3° coluna (Pontos)*/
+.table tbody td:nth-child(3) { 
+    width: 35px;   
+    font-size: 14px;
+    font-weight: bold;  
+    text-align: center;  
+    color: black;
+    background-color:#F7F7F7;
+}
+
+/* coluna 5,7,9 e 11*/
+tbody td:nth-child(5), tbody td:nth-child(7), tbody td:nth-child(9) { 
+    width: 35px; 
+    background-color:#F7F7F7;      
+    font-size: 14px;
+    font-weight: normal; 
+    text-align: center;   
+    color: #666666;    
+}
+
+/*coluna 4,6,8 e 10*/
+.table tbody td:nth-child(4),tbody td:nth-child(6),tbody td:nth-child(8),
+tbody td:nth-child(10){  
+    width: 35px;        
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;    
+    color: #666666;
+}
+
+/* coluna 11(%) */
+tbody td:nth-child(11) { 
+    width: 50px; 
+    background-color:#F7F7F7;      
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;    
+    color: #666666;    
+}
+
+/*----LINHAS----*/
+/* linha 4 e 16 para borda baixa*/
+tbody tr:nth-child(4), tbody tr:nth-child(16) { 
+    border-bottom: 2px solid #CCCCCC;
+}
+
+/*----RODAPÉ----*/
+/**/
+/* linha 4 e 16 para borda baixa 2px*/
+tbody tr:nth-child(4), tbody tr:nth-child(16) {    
+    border-bottom: 2px solid #CCCCCC;
+}
+/* Elemento Quadrado Libertadores*/
+tfoot i:nth-child(1) {    
+    color: #003366;
+    text-indent: 0.5em; 
+}
+/* Elemento Quadrado Pré-L*/
+tfoot i:nth-child(2) { 
+    color: #1398BE;
+    text-indent: 0.5em; 
+    }
+/* Elemento Quadrado SUL*/
+    tfoot i:nth-child(3) { 
+    color: #DE9800;
+    text-indent: 0.5em; 
+}
+/* Elemento Quadrado REB*/
+tfoot i:nth-child(4) { 
+    color: #C91B04;
+    text-indent: 0.5em; 
+}
+
+.foot {    
+    padding: 2px;       
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+    
+}
+.siglas {     
+    margin: 5px;
+    color: #555555;    
+    text-align: left;
+}
+
+/* cores de classificação*/
+.libertadores {
+    color: #003366;
+}
+.pre-libertadores {
+    color: #1398BE;
+}
+.sul-america {
+    color: #DE9800;
+}
+.risco {
+    color: #CCCCCC;
+}
+.rebaixado{
+    color: #C91B04;
+}
+
+
